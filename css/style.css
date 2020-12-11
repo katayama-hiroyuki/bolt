@@ -124,11 +124,24 @@ body {
   display: inline-block;
 }
 
+.our_latest_work-img {
+  padding: 40px 0;
+}
 
 .our_latest_work img {
   opacity: .7;
-  margin: 40px 50px ;
+  margin-right: 100px;
 }
+
+.our_latest_work img:nth-child(3n) {
+  /* margin-top: 80px; */
+  margin-right: 0px;
+}
+
+.our_latest_work img:nth-child(4n) {
+  margin-top: 80px;
+}
+
 
 .our_latest_work img:hover {
   opacity: 1;
