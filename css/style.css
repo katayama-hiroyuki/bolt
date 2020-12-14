@@ -37,14 +37,9 @@ body {
   transition: .3s;
 }
 
-/* ================================================ */
-
 .main {
   padding-top: 62px;
 }
-
-/* ================================================ */
-
 
 .main_title {
   width: 100%;
@@ -68,9 +63,7 @@ body {
   font-size: 30px;
   color: #c0c0c0;
 }
-
 /* ================================================ */
-
 .what_we_can_do {
   width: 100%;
   background-color: #74cfae	;
@@ -101,9 +94,7 @@ body {
 .what_we_can_do p {
   font-size: 20px;
 }
-
 /* ================================================ */
-
 .our_latest_work {
   width: 100%;
   background-color: #f2f2f2	;
@@ -126,6 +117,7 @@ body {
 
 .our_latest_work-img {
   padding: 40px 0;
+  font-size:0;
 }
 
 .our_latest_work img {
@@ -134,7 +126,6 @@ body {
 }
 
 .our_latest_work img:nth-child(3n) {
-  /* margin-top: 80px; */
   margin-right: 0px;
 }
 
@@ -167,10 +158,7 @@ body {
   color: #333;
   transition: .3s;
 }
-/* :nth-child() */
-
 /* ================================================ */
-
 .our_skills {
   width: 100%;
   background-color: #4e4e4e;
@@ -199,9 +187,7 @@ body {
   font-size: 16px;
   padding-top: 20px ;
 }
-
 /* ================================================ */
-
 .sns {
   width: 100%;
   background-color: #f2f2f2	;
@@ -222,16 +208,14 @@ body {
 
 .sns-inner a {
   color: #74cfae;
-  font-size: 2em;
+  font-size: 2.5em;
 }
 
 .sns-inner .sns-box:hover {
   background-color: #fff;
   transition: .3s;
 }
-
 /* ================================================ */
-
 .footer {
   width: 100%;
   background-color: #74cfae;
