@@ -121,9 +121,9 @@ body {
 }
 
 .our_latest_work-img a {
-  /* height: 300px; */
   opacity: .7;
   margin-right: 100px;
+  display: inline-block;
 }
 
 .our_latest_work-img a:nth-child(3n) {
