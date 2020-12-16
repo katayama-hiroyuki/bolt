@@ -71,7 +71,7 @@ body {
   font-family: "Raleway";
 }
 
-.theme p{
+.theme p {
   margin-top: 20px;
   font-size: 30px;
   color: #c0c0c0;
@@ -89,11 +89,11 @@ body {
   display: flex;
 }
 
-.what_we_can_do img{
+.what_we_can_do img {
   margin-left: 100px;
 }
 
-.what_we_can_do-text{
+.what_we_can_do-text {
   margin: 20px 0 0 120px;
 }
 
@@ -147,7 +147,6 @@ body {
   margin-top: 80px;
 }
 
-
 .our_latest_work-img a:hover {
   opacity: 1;
   transition: .3s;
@@ -180,7 +179,7 @@ body {
   background-color: #4e4e4e;
 }
 
-.our_skills-inner{
+.our_skills-inner {
   color: #fff;
   text-align: center;
   padding: 70px 0 100px 0;
@@ -201,10 +200,9 @@ body {
   margin-left: 180px;
 }
 
-.our_skills figure:first-child{
+.our_skills figure:first-child {
  margin-left: 0;
 }
-
 
 .our_skills figcaption {
   font-size: 16px;
@@ -229,7 +227,6 @@ body {
   text-align: center;
   cursor: pointer;
   transition: .3s;
-
 }
 
 .sns-inner a {
