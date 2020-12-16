@@ -13,22 +13,34 @@ body {
   position: fixed;
   background-color: #fff;
   z-index: 1;
+  margin-top: -62px;
+}
+
+.header-inner {
+  height: 100%;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
 .fa-bolt{
   opacity: 0.7;
   font-size: 2em;
-  padding: 15px 0;
+  padding: 15px 0; /*仕様*/
   float: left;
 }
 
 .header-contents {
   font-size: 12px;
-  padding: 14px 12px;
+  padding: 14px 12px; /*仕様*/
   color: #fff;
   background-color: #74cfae	;
   text-decoration: none;
   float: right;
+  transition: .3s;
   margin-top:10px
 }
 
@@ -38,7 +50,7 @@ body {
 }
 
 .main {
-  padding-top: 62px;
+  margin-top: 62px;
 }
 
 .main_title {
@@ -49,17 +61,18 @@ body {
 .theme {
   padding: 250px 0;
   text-align: center;
+  vertical-align: middle;
 }
 
 .theme h1 {
   font-size: 90px;
   font-weight: 700;
   color: #74cfae	;
-  padding-bottom: 20px;
   font-family: "Raleway";
 }
 
 .theme p{
+  margin-top: 20px;
   font-size: 30px;
   color: #c0c0c0;
 }
@@ -72,7 +85,7 @@ body {
 
 .what_we_can_do-inner {
   text-align: center;
-  padding-top: 50px;
+  padding-top: 50px; /*仕様*/
   display: flex;
 }
 
@@ -81,18 +94,17 @@ body {
 }
 
 .what_we_can_do-text{
-  margin-left: 120px;
-  padding-top: 20px;
+  margin: 20px 0 0 120px;
 }
 
 .what_we_can_do h1 {
   font-size: 24px;
-  padding-bottom: 35px;
   font-family: "Raleway";
 }
 
 .what_we_can_do p {
   font-size: 20px;
+  margin-top: 35px;
 }
 /* ================================================ */
 .our_latest_work {
@@ -116,13 +128,14 @@ body {
 }
 
 .our_latest_work-img {
-  padding: 40px 0;
+  margin:  40px 0;
   font-size:0;
 }
 
 .our_latest_work-img a {
   opacity: .7;
   margin-right: 100px;
+  transition: .3s;
   display: inline-block;
 }
 
@@ -141,7 +154,8 @@ body {
 }
 
 .our_latest_work-text {
-  padding: 50px 0 70px 0;
+  margin-top: 50px;
+  padding-bottom: 70px; /*仕様*/
 }
 
 .mail-botton {
@@ -151,6 +165,7 @@ body {
   background-color: #74cfae	;
   text-decoration: none;
   margin-left: 90px;
+  transition: .3s;
   vertical-align: top;
   display: inline-block;
 }
@@ -168,25 +183,32 @@ body {
 .our_skills-inner{
   color: #fff;
   text-align: center;
+  padding: 70px 0 100px 0;
 }
 
 .our_skills h1 {
-  padding: 70px 0;
+  font-size: 24px;
   margin: 0 auto;
 }
 
 .our_skills-contents { 
   display: flex;
   justify-content: center;
+  margin-top: 70px;
 }
 
-.our_skills figure{
-  padding: 0 90px 100px 90px;
+.our_skills figure {
+  margin-left: 180px;
 }
+
+.our_skills figure:first-child{
+ margin-left: 0;
+}
+
 
 .our_skills figcaption {
   font-size: 16px;
-  padding-top: 20px ;
+  margin-top: 20px ;
 }
 /* ================================================ */
 .sns {
@@ -206,6 +228,8 @@ body {
   line-height:100px;
   text-align: center;
   cursor: pointer;
+  transition: .3s;
+
 }
 
 .sns-inner a {
