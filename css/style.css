@@ -54,15 +54,16 @@ body {
 }
 /* ================================= */
 /* ================================= */
+
 .header {
   position: fixed;
+  top: 0;
+  left: 0;
   background-color: #fff;
-  margin-top: -70px;
-  z-index: 1;
+  z-index: 100;
 }
 
 .header-inner {
-  height: 100%;
   padding: 15px 0; 
 }
 
@@ -85,7 +86,7 @@ body {
 }
 
 .main {
-  margin-top: 70px;
+  padding-top: 70px;
 }
 
 .theme {
@@ -110,11 +111,11 @@ body {
 }
 
 .what_we_can_do img {
-  margin-left: 100px;
+  padding-left: 100px;
 }
 
 .what_we_can_do-text_box {
-  margin: 20px 0 0 140px;
+  padding: 20px 0 0 140px;
 }
 
 .what_we_can_do-text {
@@ -129,6 +130,7 @@ body {
 .our_latest_work-text {
   font-weight: lighter; 
   letter-spacing: 1px;
+  width: 630px;
 }
 
 .our_latest_work-img {
@@ -141,6 +143,10 @@ body {
   margin-right: 100px;
   transition: .3s;
   display: inline-block;
+}
+
+.our_latest_work-img a{
+  display: block;
 }
 
 .our_latest_work-img li:nth-child(3n) {
@@ -157,7 +163,7 @@ body {
 
 .our_latest_work-text_box {
   margin-top: 90px;
-  margin-right: 90px;
+  padding-right: 80px;
 }
 
 .mail-botton {
