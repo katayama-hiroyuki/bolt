@@ -116,8 +116,7 @@ body {
 }
 
 .what_we_can_do-text_box {
-  padding-top: 20px;
-  margin-left: 140px;
+  margin: 20px 0 0 140px;
 }
 
 .what_we_can_do-text {
@@ -138,6 +137,8 @@ body {
 .our_latest_work-img {
   margin-top: 40px;
   font-size:0;
+  display: inline-block;
+
 }
 
 .our_latest_work-img li {
@@ -231,152 +232,153 @@ body {
 /* タブレット */
 @media screen and (max-width: 1199px) { 
 
-  .inner {
-    width: 100%;
-  }
+ .inner {
+   width: 100%;
+ }
 
-  .fa-bolt {
-    margin-left: 20px;
-  }
+ .fa-bolt {
+   margin-left: 20px;
+ }
 
-  .header-contents {
-    margin-right: 20px;
-  }
+ .header-contents {
+   margin-right: 20px;
+ }
 
-  .what_we_can_do-inner {
-    width: 100%;
-    padding: 50px 0 25px 0;
-    display: block;
-  }
+ .what_we_can_do-inner {
+   width: 100%;
+   padding: 50px 0 25px 0;
+   display: block;
+ }
 
-  .what_we_can_do img {
-    padding-left: 0;
-  }
+ .what_we_can_do img {
+   padding-left: 0;
+ }
 
-  .what_we_can_do-text_box {
-    margin: 20px 0 0 0 ;
-  }
+ .what_we_can_do-text_box {
+   margin: 20px 0 0 0 ;
+ }
 
-  .what_we_can_do-text {
-    width: 80%;
-    margin: 35px auto 0;
-  }
+ .what_we_can_do-text {
+   width: 80%;
+   margin: 35px auto 0;
+ }
 
+ .our_latest_work-img {
+   display: inline-block;
+ }
 
-  .our_latest_work-inner li {
-    display: block;
-    margin: auto;
-  }
+ .our_latest_work-inner li {
+   display: block;
+   margin: auto;
+ }
 
-  .our_latest_work-img li:nth-child(n+4) {
-    margin-top: 0;
-  }
+ .our_latest_work-img li:nth-child(n+4) {
+   margin-top: 0;
+ }
 
-  .our_latest_work-img li:nth-child(3n+4) {
-    margin-top: 80px;
-  }
+ .our_latest_work-img li:nth-child(3n+4) {
+   margin-top: 80px;
+ }
 
-  .our_latest_work-text_box {
-    margin-top: 80px;
-    padding-right: 0;
-  }
+ .our_latest_work-text_box {
+   margin-top: 80px;
+   padding-right: 0;
+ }
 
-  .our_latest_work-text {
-    display: block;
-    margin: auto;
-  }
+ .our_latest_work-text {
+   display: block;
+   margin: auto;
+ }
 
-  .mail-botton {
-    margin: 40px 0 0 0;
-  }
+ .mail-botton {
+   margin: 40px 0 0 0;
+ }
 
-  .our_skills-contents {
-    display: block;
-  }
+ .our_skills-contents {
+   display: block;
+ }
 
-  .our_skills figure {
-    margin: 88px auto 0;
-  }
+ .our_skills figure {
+   margin: 88px auto 0;
+ }
 
-  .our_skills figure:first-child {
-    margin-top: 0;
-  }
+ .our_skills figure:first-child {
+   margin-top: 0;
+ }
 
-  .footer-inner p {
-    padding-right: 20px;
-  }
-  
-
+ .footer-inner p {
+   padding-right: 20px;
+ }
+ 
 }
-
 
 /* スマホ */
 @media screen and (max-width: 767px) { 
 
-.header-contents {
-  display: none;
-}
+ .header-contents {
+   display: none;
+ }
 
-.hamburger_menu {
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  height: 13px;
-  width: 25px;
-  position: absolute;
-  right: 20px;
-}
+ .hamburger_menu {
+   padding: 10px;
+   border: 1px solid #ddd;
+   border-radius: 4px;
+   height: 13px;
+   width: 25px;
+   position: absolute;
+   right: 20px;
+ }
 
-.hamburger_menu span {
-  border:2px #c0c0c0;
-  border-radius: 3px;
-  content: '';
-  display: block;
-  height: 2px;
-  width: 25px;
-  border-radius: 3px;
-  background-color: #c0c0c0;
-  position: absolute;
-}
+ .hamburger_menu span {
+   border:2px #c0c0c0;
+   border-radius: 3px;
+   content: '';
+   display: block;
+   height: 2px;
+   width: 25px;
+   border-radius: 3px;
+   background-color: #c0c0c0;
+   position: absolute;
+ }
 
-.hamburger_menu span:nth-of-type(2) {
-  top: 16px;
-}
+ .hamburger_menu span:nth-of-type(2) {
+   top: 16px;
+ }
 
-.hamburger_menu span:nth-of-type(3) {
-  top: 22px;
-}
+ .hamburger_menu span:nth-of-type(3) {
+   top: 22px;
+ }
 
-.theme {
-  padding: 160px 0 130px 0;
-}
+ .theme {
+   padding: 160px 0 130px 0;
+ }
 
-.theme h1 {
-  font-size: 80px;
-}
+ .theme h1 {
+   font-size: 80px;
+ }
 
-.theme p {
-  width: 70%;
-  margin: 20px auto 0 ;
-}
+ .theme p {
+   width: 70%;
+   margin: 20px auto 0 ;
+ }
 
-.our_latest_work-text {
-  width: 70%;
-}
+ .our_latest_work-text {
+   width: 70%;
+ }
 
-.sns-inner {
-  width: 100%;
-  display: block;
-  padding: 50px 0;
-}
+ .sns-inner {
+   width: 100%;
+   display: block;
+   padding: 50px 0;
+ }
 
-.sns-inner li {
-  width: auto;
-  margin: 0 15px;
-}
+ .sns-inner li {
+   width: auto;
+   margin: 0 15px;
+ }
 
-.footer-inner {
-  width: 100%;
-} 
+ .footer-inner {
+   width: 100%;
+ } 
 
 }
